@@ -1,0 +1,25 @@
+
+* Install FreeBSD Vagrant Box using KVM
+
+*** Why KVM?  better support for 32bit boxes inside 64bit virtual host.
+
+*** Step 1: Install [[https://github.com/pradels/vagrant-libvirt][Vagrant libvert plugin]]
+    - vagrant plugin install vagrant-libvirt
+    - You might have to gem install ruby-libvert first
+
+*** Step 2: Write proper Vagrantfile
+
+*** wget http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_freebsd-10.1_chef-provisionerless.box
+
+
+* Vagrant annoyences:
+
+Uninstall Vagrant to get clean install:
+yum remove vagrant
+rm -r ~/vagrant.d/
+(In project directory:
+rm ./vagrant
+
+reinstall vagrant:
+sudo yum install ../../../Downloads/vagrant_1.7.2_x86_64.rpm
+
