@@ -1,6 +1,6 @@
 # -*- mode: ruby -*-
 
-CD_PATH = '/home/kwaku/Documents/Volumes/BSDCG/BSDCG_Spring_Summer_2015_DVD.iso'
+CD_PATH = '~/Documents/Volumes/BSDCG/BSDCG_Spring_Summer_2015_DVD.iso'
 
 Vagrant.configure(2) do |config|
 
