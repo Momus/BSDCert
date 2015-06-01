@@ -9,6 +9,7 @@
 
 *** Step 2: Write proper Vagrantfile
 
+
 *** wget http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_freebsd-10.1_chef-provisionerless.box
 
 
