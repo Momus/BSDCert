@@ -2,17 +2,17 @@
 
 CD_PATH = '~/Documents/Volumes/BSDCG/BSDCG_Spring_Summer_2015_DVD.iso'
 
-Vagrant.configure(2) do |config|
+Vagrant.configure("2") do |config|
 
-  config.vm.box = "opscode_freebsd-10.1_chef-provisionerless"
+  #config.vm.box = "opscode_freebsd-10.1_chef-provisionerless"
   
 
   config.vm.define :bsd_vm do |bsd_vm|
-    # Box name
-    #
-    bsd_vm.vm.box = "opscode_freebsd-10.1_chef-provisionerless"
+    
+    ## Box name
+    bsd_vm.vm.box = "opscode_freebsd-10.1"
 
-    # Domain Specific Options
+    ## Domain Specific Options
     bsd_vm.vm.provider :libvirt do |domain|
       domain.memory = 8192
       domain.cpus = 4
@@ -29,7 +29,7 @@ Vagrant.configure(2) do |config|
 
   end #config.vm.define :bsd_vm do |bsd_vm|
   
-  config.vm.synced_folder "./data", "/vagrant_data"
+  config.vm.synced_folder "data/", "/vagrant_data"
   
   # Options for libvirt vagrant provider.
   config.vm.provider :libvirt do |libvirt|
@@ -38,13 +38,13 @@ Vagrant.configure(2) do |config|
     libvirt.driver = "kvm"
 
     # The name of the server, where libvirtd is running.
-    libvirt.host = "localhost"
+    #libvirt.host = "localhost"
 
     # If use ssh tunnel to connect to Libvirt.
-    libvirt.connect_via_ssh = true
+    #libvirt.connect_via_ssh = true
     
     # The username and password to access Libvirt.
-    libvirt.username = "kwaku"
+    #libvirt.username = "kwaku"
     #libvirt.password = "secret"
     
     # Set a prefix for the machines that's different than the project dir name.

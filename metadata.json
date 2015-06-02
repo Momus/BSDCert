@@ -1,0 +1,6 @@
+{
+    "comment"      : "Metadata for Vagrantfile"
+    "provider"     : "libvirt",
+    "format"       : "qcow2",
+    "virtual_size" : 40
+}

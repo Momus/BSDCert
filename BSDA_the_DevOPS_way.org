@@ -9,10 +9,15 @@
 
 *** Step 2: Write proper Vagrantfile
 
+*** TODO Finish nicities
 
-*** wget [[http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_freebsd-10.1_chef-provisionerless.box][opscode-box]]
+***** File sharing with NAS
 
-* Vagrant annoyences:
+***** Make sure Bash is provisioned
+
+*** wget http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_freebsd-10.1_chef-provisionerless.box][o[pscode-box
+
+*** Vagrant annoyences:
 
 Uninstall Vagrant to get clean install:
 yum remove vagrant
@@ -20,6 +25,11 @@ rm -r ~/vagrant.d/
 (In project directory:
 rm ./vagrant
 
+rember to: vagrant mutate opscode_freebsd-10.1.box
+
 reinstall vagrant:
 sudo yum install ../../../Downloads/vagrant_1.7.2_x86_64.rpm
 
+*** Provision with Chef
+
+*** Create cookbooks direcotory
