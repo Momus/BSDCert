@@ -34,8 +34,11 @@ rember to: vagrant mutate opscode_freebsd-10.1.box
 reinstall vagrant:
 sudo yum install ../../../Downloads/vagrant_1.7.2_x86_64.rpm
 
-<<<<<<< HEAD:BSDA_the_DevOPS_way.org
+Shared folders may need to be disabled to get Vagrant to reload without error.
+
 *** Provision with Chef
+
+*** BDD with test-kitchen
 
 *** Create cookbooks direcotory
 

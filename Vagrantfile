@@ -9,19 +9,12 @@ Vagrant.configure("2") do |config|
 
   config.vm.define :bsd_vm do |bsd_vm|
     
-    ## Box name
     bsd_vm.vm.box = "opscode_freebsd-10.1"
 
     bsd_vm.vm.network :private_network,
                       :ip => '10.0.0.67'
-    
-    config.vm.synced_folder ".", "/vagrant", disabled: true
 
-=begin   
-    bsd_vm.vm.synced_folder "v-root",
-                            "/vagrant",
-                            type: "nfs"
-=end        
+    bsd_vm.vm.synced_folder ".", "/vagrant", disabled: true
     
     ## Domain Specific Options
     bsd_vm.vm.provider :libvirt do |domain|
@@ -29,7 +22,6 @@ Vagrant.configure("2") do |config|
       domain.cpus = 4
       #This is what enables the nested VMs
       domain.nested = true
-      
 
       domain.storage :file,
                      :device => :cdrom,
@@ -37,11 +29,8 @@ Vagrant.configure("2") do |config|
       
       domain.driver = "kvm"
       
-      
       #This does not work:
       #domain.audio = "none"
-      
- 
       
     end #Domain options
     
