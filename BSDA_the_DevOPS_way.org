@@ -8,6 +8,10 @@
     - You might have to gem install ruby-libvert first
 
 *** Step 2: Write proper Vagrantfile
+<<<<<<< HEAD:BSDA_the_DevOPS_way.org
+=======
+
+>>>>>>> f6a15a6f3d83e16e269c18ccb0f4cc7536793b37:BSDCA_the_DevOPS_way.org
 
 *** TODO Finish nicities
 
@@ -30,6 +34,8 @@ rember to: vagrant mutate opscode_freebsd-10.1.box
 reinstall vagrant:
 sudo yum install ../../../Downloads/vagrant_1.7.2_x86_64.rpm
 
+<<<<<<< HEAD:BSDA_the_DevOPS_way.org
 *** Provision with Chef
 
 *** Create cookbooks direcotory
+
