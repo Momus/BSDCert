@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
       domain.cpus = 4
       #This is what enables the nested vms
       domain.nested = true
+      
     end
 
 #    bsd_vm.vm.network :public_network,
@@ -28,8 +29,13 @@ Vagrant.configure("2") do |config|
 
 
   end #config.vm.define :bsd_vm do |bsd_vm|
+
+  config.vm.synced_folder "v-root",
+                          "/vagrant",
+                         :nfs => true,
+                         id: "vagrant-root"
   
-  config.vm.synced_folder "data/", "/vagrant_data"
+  #config.vm.synced_folder "data/", "/vagrant_data"
   
   # Options for libvirt vagrant provider.
   config.vm.provider :libvirt do |libvirt|
@@ -49,6 +55,7 @@ Vagrant.configure("2") do |config|
     
     # Set a prefix for the machines that's different than the project dir name.
     #libvirt.default_prefix = ''
+    
     libvirt.storage :file,
                   :device => :cdrom,
                   :path =>  CD_PATH
