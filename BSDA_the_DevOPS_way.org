@@ -40,5 +40,12 @@ Shared folders may need to be disabled to get Vagrant to reload without error.
 
 *** BDD with test-kitchen
 
-*** Create cookbooks direcotory
+***** Following Chef tutorial for MOTD cookbook
 
+******* chef generate cookbook motd
+
+******* chef generate template motd server-info
+
+
+
+c

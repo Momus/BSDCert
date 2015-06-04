@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 
 
-
-CD_PATH = '~/Documents/Volumes/BSDCG/BSDCG_Spring_Summer_2015_DVD.iso'
+#Need to recover CD image
+#CD_PATH = '~/Documents/Volumes/BSDCG/BSDCG_Spring_Summer_2015_DVD.iso'
 
 Vagrant.configure("2") do |config|
   
@@ -23,9 +23,11 @@ Vagrant.configure("2") do |config|
       #This is what enables the nested VMs
       domain.nested = true
 
-      domain.storage :file,
+=begin     domain.storage :file,
                      :device => :cdrom,
+
                      :path =>  CD_PATH
+=end
       
       domain.driver = "kvm"
       
@@ -34,7 +36,13 @@ Vagrant.configure("2") do |config|
       
     end #Domain options
     
-  end #config.vm.define :bsd_vm do |bsd_vm|
+    config.vm.provision "chef_zero" do |chef|
+      # Specify the local paths where Chef data is stored
+      chef.cookbooks_path = "cookbooks"
+      chef.roles_path = "roles"
+      chef.nodes_path = "nodes"
+    end
 
+  end #config.vm.define :bsd_vm do |bsd_vm|  
   
 end #Vagrant.configure(2) do |config|

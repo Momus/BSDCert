@@ -28,3 +28,6 @@
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+#Test kitchen does not need me to keep logs
+.kitchen/logs/*
