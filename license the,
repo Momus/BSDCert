@@ -1,0 +1,46 @@
+The <a href="http://www.w3.org/2011/webappsec/">Web Application Security Working Group</a> has published a Working Draft of <a href="http://www.w3.org/TR/2015/WD-epr-20150609/">Entry Point Regulation</a>. Entry Point Regulation aims to mitigate the risk of reflected cross-site scripting (XSS), cross-site script inclusion (XSSI), and cross-site request forgery (CSRF) attacks by demarcating the areas of an application which are intended to be externally referencable. A specified policy is applied on external requests for all non-demarcated resources. Learn more about the <a href="http://www.w3.org/Security/">Security Activity</a>.</p> <p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4749%3Fpk_campaign%3Dfeed%26pk_kwd%3Dentry-point-regulation-draft-published&amp;action_name=Entry+Point+Regulation+Draft+Published&amp;urlref=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://www.w3.org/blog/news/archives/4749?pk_campaign=feed&pk_kwd=entry-point-regulation-draft-published/feed
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>
+Call for Review: Proposal to Relicense Unfinished SysApps Specification: TCP and UDP Socket API
+</title>
+<link>
+http://www.w3.org/blog/news/archives/4746?pk_campaign=feed&pk_kwd=call-for-review-proposal-to-relicense-unfinished-sysapps-specification-tcp-and-udp-socket-api
+</link>
+<comments>
+http://www.w3.org/blog/news/archives/4746?pk_campaign=feed&pk_kwd=call-for-review-proposal-to-relicense-unfinished-sysapps-specification-tcp-and-udp-socket-api#comments
+</comments>
+<pubDate>Sat, 06 Jun 2015 00:11:56 +0000</pubDate>
+<dc:creator>
+<![CDATA[ Coralie Mercier ]]>
+</dc:creator>
+<category>
+<![CDATA[ Web Design and Applications ]]>
+</category>
+<category>
+<![CDATA[ Web of Devices ]]>
+</category>
+<guid isPermaLink="false">http://www.w3.org/blog/news/?p=4746</guid>
+<description>
+<![CDATA[
+Today the W3C Advisory Committee Representatives received a Proposal to license the SysApps TCP and UDP Socket API specification. Pursuant to the W3C Policy on Relicensing Unfinished W3C Specifications, the Director proposes to relicense the Specification under the W3C Software and Document License. Public comments are welcome through 7 July 2015.<img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4746%3Fpk_campaign%3Dfeed%26pk_kwd%3Dcall-for-review-proposal-to-relicense-unfinished-sysapps-specification-tcp-and-udp-socket-api&amp;action_name=Call+for+Review%3A+Proposal+to+Relicense+Unfinished+SysApps+Specification%3A+TCP+and+UDP+Socket+API&amp;urlref=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" />
+]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>Today the W3C Advisory Committee Representatives received a <a href="https://lists.w3.org/Archives/Public/public-review-announce/2015Jun/0000.html">Proposal to license the SysApps TCP and UDP Socket API specification</a>. Pursuant to the W3C <a href="http://www.w3.org/2014/12/relicense.html">Policy on Relicensing Unfinished W3C Specifications</a>, the Director proposes to relicense the Specification under the <a href="http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">W3C Software and Document License</a>. Public comments are welcome through <strong>7 July 2015</strong>.</p> <p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4746%3Fpk_campaign%3Dfeed%26pk_kwd%3Dcall-for-review-proposal-to-relicense-unfinished-sysapps-specification-tcp-and-udp-socket-api&amp;action_name=Call+for+Review%3A+Proposal+to+Relicense+Unfinished+SysApps+Specification%3A+TCP+and+UDP+Socket+API&amp;urlref=http%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+]]>
+</content:encoded>
+<wfw:commentRss>
+http://www.w3.org/blog/news/archives/4746?pk_campaign=feed&pk_kwd=call-for-review-proposal-to-relicense-unfinished-sysapps-specification-tcp-and-udp-socket-api/feed
+</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>W3C Adopts new Software and Document-...
