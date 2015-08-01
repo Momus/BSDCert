@@ -8,10 +8,6 @@
     - You might have to gem install ruby-libvert first
 
 *** Step 2: Write proper Vagrantfile
-<<<<<<< HEAD:BSDA_the_DevOPS_way.org
-=======
-
->>>>>>> f6a15a6f3d83e16e269c18ccb0f4cc7536793b37:BSDCA_the_DevOPS_way.org
 
 *** TODO Finish nicities
 
@@ -47,5 +43,3 @@ Shared folders may need to be disabled to get Vagrant to reload without error.
 ******* chef generate template motd server-info
 
 
-
-c
